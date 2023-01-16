@@ -1,0 +1,114 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background: #F5F5F5;
+  }
+  
+  header {
+    background-color: #1F1F1F;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  header h1 {
+    color: #FFFFFF;
+    margin: 0;
+    text-align: center;
+    font-size: 3em;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  nav {
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav a {
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 1.2em;
+    padding: 10px;
+    border-radius: 10px;
+    transition: all 0.2s ease;
+  }
+  nav a:hover {
+    background-color: #F5A623;
+  }
+  
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  main h2 {
+    color: #1F1F1F;
+    margin-top: 0;
+    font-size: 2em;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  main img {
+    max-width: 100%;
+    border-radius: 20px;
+  }
+  
+  main p {
+    color: #1F1F1F;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    font-size: 1.2em;
+  }
+  
+  main a {
+    color: #F5A623;
+    text-decoration: none;
+  }
+  
+  aside {
+    float: right;
+    width: 30%;
+    margin-left: 10px;
+  }
+  
+  aside h3 {
+    color: #1F1F1F;
+    margin-top: 0;
+    font-size: 2em;
+    font-family: 'Playfair Display', serif;
+  }
+  
+  aside ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  aside ul li{
+    font-size: 1.2em;
+  }
+  aside ul li a{
+    color: #1F1F1F;
+    text-decoration: none;
+  }
+  
+  footer {
+    clear: both;
+    background-color: #1F1F1F;
+    text-align: center;
+    padding: 20px;
+    color: #FFFFFF;
+  }
+  
+  

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>PIG Magazine</title>
+  <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>PIG Magazine</h1>
+    <nav>
+      <ul>
+        <li><a href="#">Home</a></li>
+        <li><a href="#">About</a></li>
+        <li><a href="#">Articles</a></li>
+        <li><a href="#">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Featured Article</h2>
+    <img id="featured-img" src="featured-article-image.jpg" alt="Featured Article">
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed auctor, magna eget commodo tincidunt, urna mi sollicitudin elit, at fringilla enim elit in magna.</p>
+    <a href="#">Read More</a>
+  </main>
+
+  <aside>
+    <h3>Recent Articles</h3>
+    <ul>
+      <li><a href="#">Article 1</a></li>
+      <li><a href="#">Article 2</a></li>
+      <li><a href="#">Article 3</a></li>
+    </ul>
+  </aside>
+
+  <footer>
+    <p>Copyright © 2021 PIG Magazine</p>
+  </footer>
+  <script>
+    // Add a hover effect to the featured image
+    var img = document.getElementById("featured-img");
+    img.onmouseover = function() {
+      img.style.filter = "brightness(50%)";
+    };
+    img.onmouseout = function() {
+      img.style.filter = "brightness(100%)";
+    };
+  </script>
+</body>
+</html>
